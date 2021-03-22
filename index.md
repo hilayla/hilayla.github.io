@@ -1,41 +1,21 @@
 ## Layla Hiramatsu
-
-
-
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/hilayla/hilayla.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/hilayla/hilayla.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+# Now seeking opportunities
+- data science
+- technical writing
+- science communication
+# Postdoc 2018 - 2020
+Bioinformatics / Population genetics & genomics
+[Chan Lab](https://www.fml.tuebingen.mpg.de/chan-group/)
+Friedrich Miescher Laboratory of the Max Planck Society
+Tübingen, Germany
+# PhD 2017
+Behavior and evolutionary genetics on the [High-Runner mice](https://sites.google.com/ucr.edu/hrmice/home)
+[Garland Lab](https://biology.ucr.edu/people/faculty/Garland.html)
+Department of Evolution, Ecology, and Organismal Biology (EEOB)
+University of California, Riverside
+# BS 2011
+Ecology, Behavior, and Evolution
+University of California, Los Angeles
+- Field Biology Quarter in Nicaragua 2011
+- Summer session in Lund, Sweden 2010
+- University Choir, Odori Traditional Japanese Dance
