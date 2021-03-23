@@ -1,0 +1,374 @@
+/* TODO set an expiration header for the CSS file and a whooping one on the actual font resource ***/
+  /** See suggestions: https://www.paulirish.com/2009/fighting-the-font-face-fout/ **/
+@font-face {
+    font-family: 'Linux Biolinum';
+    src: url('../fonts/LinBiolinum_R.woff') format('woff'),
+         url('../fonts/LinBiolinum_Rah.ttf') format('truetype');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Linux Biolinum';
+    font-style: italic;
+    src: url('../fonts/LinBiolinum_RI.woff') format('woff'),
+         url('../fonts/LinBiolinum_RIah.ttf') format('truetype');
+    font-weight: 200;
+}
+@font-face {
+    font-family: 'Linux Biolinum';
+    font-style: bold;
+    src: url('../fonts/LinBiolinum_RB.woff') format('woff'),
+         url('../fonts/LinBiolinum_RBah.ttf') format('truetype');
+    font-weight: 800;
+}
+
+html {
+    background-color: white;
+}
+
+body {
+    margin-top: 48px;
+    margin-left: 5%; /*60px;*/
+    margin-right: 5%; /*60px;*/
+    margin-bottom: 10px;
+    padding: 0px;
+    width: 90%;
+    background-color: white;
+}
+
+
+nav ul, footer ul {
+    font-family: 'Linux Biolinum', 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: #176ae8; /* sort of a sea blue */
+}
+a:hover {
+    text-decoration: underline;
+}
+
+
+h1 {
+/*    font-size: 3em;  */
+    font-size: 38px;
+    font-family: 'Linux Biolinum', 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    text-align: center;
+}
+h1.title {
+    font-size: 40px;
+    font-family: 'Linux Biolinum', 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    color: green;
+}
+h2 {
+    font-size: 34px;
+    font-family: 'Linux Biolinum', 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    color: green;
+    text-align: center;
+    padding: 0px 15px 0px; /* (top, left/right, bottom) ALSO CHANGE: h2, p, h4.dt and footer */
+}
+h3 {
+    font-size: 30px;
+    font-family: 'Linux Biolinum', 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    color: green;
+    text-align: center;
+}
+h4 {
+    font-size: 26px;
+    font-family: 'Linux Biolinum', 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    color: green;
+    text-align: center;
+}
+h5 {
+    font-size: 24px;
+    font-family: 'Linux Biolinum', 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    color: green;
+    text-align: center;
+}
+h6 {
+    font-size: 20px;
+    font-family: 'Linux Biolinum', 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    color: green;
+    text-align: center;
+}
+
+
+
+p {
+    font-size: 1.5em;
+    font-family: 'Linux Biolinum', 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    line-height: 1.4em;
+    color: #333;
+    text-align: justify;
+    padding: 0px 20px 0px; /* (top, left/right, bottom) ALSO CHANGE: h2, p, h4.dt and footer */
+}
+
+/* below is same as above, but just center/left aligned */
+.central {
+    text-align: center;
+}
+.left {
+    text-align: left;
+}
+.code {
+    font-family: Courier New,Courier,monospace;
+    font-weight: bold;
+}
+
+
+
+/* Define style for definition/description list */
+	/** 	e.g., CV 	**/
+dl {
+/*    display: block; */
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+dt {
+    float: left;
+    clear: left;
+    width: 15%;  /* width of dd + dt ==100% */
+    padding: 0;
+    margin: 0;
+}
+dd {
+    float: left;
+    width: 85%;  /* width of dd + dt ==100% */
+    padding: 0;
+    margin: 0;
+}
+h4.dt {
+    font-size: 26px;
+    font-family: 'Linux Biolinum', 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    color: green;
+    text-align: left;
+    padding: 0px 20px 0px; /* (top, left/right, bottom) ALSO CHANGE: h2, p, h4.dt and footer */
+}
+p.dd {
+    font-size: 1.5em;
+    font-family: 'Linux Biolinum', 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    line-height: 1.4em;
+    color: #333;
+    text-align: left;
+}
+
+
+img.icon {
+    height: 40px;
+}
+
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: 1.1em;
+    padding: 0px 20px 8px; /* top, left/right, bottom */
+}
+
+
+/* Navigation bar specifics */
+#main-nav {
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: green;
+}
+#main-nav li {
+    float: left;
+}
+#main-nav a, .dropbtn {
+    display: block;
+    font-size: 1.75em;
+    color: white;
+    text-align: left;
+    padding: 8px 18px 6px;  /* top, right/left, bottom */
+    margin: 0px;
+}
+#main-nav li a:hover:not(.active), .dropdown:hover:not(.active) .dropbtn {
+    background-color: #111;
+}
+#main-nav li a.active {
+    background-color: #111;
+    color: white;
+}
+li.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: green;
+    min-width: 160px;
+    z-index: 1;
+}
+.dropdown-content a {
+    color: green;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+/* Header picture specifics */
+#headline1 {
+    background-repeat: no-repeat;
+    background-position: top center;
+    padding: 0px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+#headline1 img {
+    width: 100%;
+    height: auto;   /* 375px */
+    margin: 0 auto;
+    border-bottom: black 4px solid;
+}
+
+
+
+
+/* Main content and Sidebar */
+.column {
+    float: right;
+    padding-left: 2px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.main {
+    width: 65%;
+}
+.rightbar {
+    width: 35%;
+}
+   
+
+/* Blocks of pictures */
+/**	e.g., index.html study systems	**/
+div.img {
+    margin: 20px;
+    display: inline-block;
+    height: 240px;
+}
+
+div.img:hover {
+    border: 5px solid green;
+/*if size by width:    padding-right: 5px; /* =size of div.img:hover{border} */   
+    padding-bottom: 5px; /* = size of div.img:hover{border} */
+}
+
+div.img img {
+    width: auto;
+    height: 100%;
+    border: black 3px solid;
+}
+
+div.desc {
+    font-size: 1.3em;
+    font-family: 'Linux Biolinum', 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    line-height: 1.4em;
+    color: #333;
+    max-width: 270px;
+    padding: 8px 2px;  /* top/bottom then right/left  */
+    text-align: center;
+}
+
+
+
+
+
+
+/* Floating images */
+/**	e.g., research.html pictures	**/
+.img-desc {
+    font-size: 1.3em;
+    font-family: 'Linux Biolinum', 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    line-height: 1.4em;
+    color: #333;
+    margin: 1px 20px 1px; /* top right/left bottom */
+    padding: 5px 5px 5px 2px;/*6px;*/
+    text-align: center;
+}
+
+.left-img {
+    float: left;
+    margin: 20px;
+    width: 350px;
+}
+.left-img img {
+    width: 100%;
+    height: auto;
+    border: black 3px solid;
+}
+.left-img:hover .dropdown-contentL {
+    display: block;
+}
+.dropdown-contentL {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    max-width: 450px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+    padding: 10px 12px;
+    text-align: justify;
+}
+
+
+.right-img {
+    float: right;
+    margin: 20px;
+    width: 350px;
+}
+.right-img img {
+    width: 100%;
+    height: auto;
+    border: black 3px solid;
+}
+.right-img:hover .dropdown-contentR {
+    display: block;
+}
+.dropdown-contentR {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    max-width: 450px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+    padding: 10px 12px;
+    text-align: justify;
+}
+
+
+/* CRAN badges */
+img.badge {
+    display: block;
+    margin: 10px;
+    max-width: 50%;
+}
+img.badge img {
+    max-width: 100%;
+    height: auto;
+}
