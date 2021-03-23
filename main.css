@@ -20,7 +20,7 @@ nav ul, footer ul {
     margin: 0px;
     padding: 0px;
     list-style: none;
-    font-weight: bold;
+    /*font-weight: bold;*/
 }
 nav ul li, footer ul li {
     display: inline;
@@ -182,7 +182,7 @@ footer {
     background-color: #111;
 }
 #main-nav li a.active {
-    background-color: black;
+    background-color: white;
     color: grey;
 }
 li.dropdown {
