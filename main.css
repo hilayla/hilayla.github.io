@@ -182,8 +182,8 @@ footer {
 /*    background-color: #111;*/
 }
 #main-nav li a.active {
-    background-color: black;
-    color: grey;
+/*    background-color: black;*/
+    color: black;
 }
 li.dropdown {
     display: inline-block;
