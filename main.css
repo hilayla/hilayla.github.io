@@ -17,7 +17,8 @@ body {
 
 nav ul, footer ul {
     font-family: 'Arial',sans-serif;
-    margin: 0px;
+    margin-left: 5%; /*60px;*/
+    margin-right: 5%; /*60px;*/
     padding: 0px;
     list-style: none;
     /*font-weight: bold;*/
@@ -133,11 +134,12 @@ footer {
 /* Navigation bar specifics */
 #main-nav {
     margin: 0px;
-    margin-right:5%;
+    margin-left: 5%; /*60px;*/
+    margin-right: 5%; /*60px;*/
     padding: 0px;
     position: fixed;
     z-index: 1;
-    width: 100%;
+    width: 90%;
     top: 0;
     left: 0;
     background-color: white;
