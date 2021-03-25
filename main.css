@@ -62,9 +62,9 @@ p {
     font-size: 1em;
     font-family: 'Arial',sans-serif;
     line-height: 1em;
-    color: #333;
+    color: #333333;
     text-align: justify;
-    padding: 0px 20px 0px; /* (top, left/right, bottom) ALSO CHANGE: h2, p, h4.dt and footer */
+    padding: 2px 20px 2px; /* (top, left/right, bottom) ALSO CHANGE: h2, p, h4.dt and footer */
 }
 
 /* below is same as above, but just center/left aligned */
