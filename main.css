@@ -99,7 +99,7 @@ p {
 }
 #main-nav a, .dropbtn {
     display: block;
-    font-size: 1em;
+    font-size: 1.2em;
     color: grey;
     text-align: left;
     padding: 8px 18px 6px;  /* top, right/left, bottom */
