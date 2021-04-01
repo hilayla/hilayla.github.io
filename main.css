@@ -31,7 +31,7 @@ nav ul li, footer ul li {
 
 a {
     text-decoration: none;
-    color: #fab63e ; /*  #176ae8 sort of a sea blue */
+    color: #c7d4c2 /* #fab63e orange-yellow ; /*  #176ae8 sort of a sea blue */
 }
 a:hover {
     text-decoration: none;
@@ -52,7 +52,7 @@ h1.title {
 }
 h2,h3,h4,h5 {
     font-family: 'Oswald','Alternate Gothic', 'Arial',sans-serif;
-    color: #7fb54a;
+    color: #6c846c; /* #7fb54a green; */
 /*    text-align: left;*/
 /*    padding: 0px 15px 0px; /* (top, left/right, bottom) ALSO CHANGE: h2, p, h4.dt and footer */
 }
