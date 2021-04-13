@@ -209,55 +209,58 @@ footer {
 
 
 /* Main content and Sidebar */
-.column {
+div.column {
     float: right;
     padding-left: 2px;
 }
-.clearfix::after {
+div.clearfix::after {
     content: "";
     clear: both;
     display: table;
 }
-.main {
+div.main {
     width: 65%;
 }
-.rightbar {
+div.rightbar {
     width: 35%;
 }
-   
+
 
 /* Blocks of pictures */
-/**	e.g., index.html study systems	**/
-div.img {
-    margin: 20px;
-    display: inline-block;
-    height: 240px;
+/**https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp**/
+div.imgrow {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
 }
 
-div.img:hover {
-    border: 5px solid yellow;
-/*if size by width:    padding-right: 5px; /* =size of div.img:hover{border} */   
-    padding-bottom: 5px; /* = size of div.img:hover{border} */
+/* Create four equal columns that sits next to each other */
+div.imgcol {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
 }
 
-div.img img {
-    width: auto;
-    height: 100%;
-    border: black 3px solid;
+div.imgcol img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
 }
 
-div.desc {
-    font-size: 1.3em;
-    font-family: 'Arial',sans-serif;
-    line-height: 1.4em;
-    color: #333;
-    max-width: 270px;
-    padding: 8px 2px;  /* top/bottom then right/left  */
-    text-align: center;
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
 }
-
-
-
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
 
 
 
