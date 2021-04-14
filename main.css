@@ -236,8 +236,8 @@ div.imgrow {
 
 /* Create four equal columns that sits next to each other */
 div.imgcol {
-  flex: 25%;
-  max-width: 25%;
+  flex: 22.5%;
+  max-width: 22.5%;
   padding: 0 4px;
 }
 
@@ -250,15 +250,15 @@ div.imgcol img {
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   div.imgcol {
-    flex: 50%;
-    max-width: 50%;
+    flex: 45%;
+    max-width: 45%;
   }
 }
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   div.imgcol {
-    flex: 100%;
-    max-width: 100%;
+    flex: 90%;
+    max-width: 90%;
   }
 }
 
